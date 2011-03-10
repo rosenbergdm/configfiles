@@ -1,0 +1,80 @@
+10
+
+dir
+154
+http://lh-vim.googlecode.com/svn/vim-lib/trunk
+http://lh-vim.googlecode.com/svn
+
+
+
+2009-02-19T02:07:33.229601Z
+145
+luc.hermitte
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+50c58283-e937-0410-a8aa-d7cab3d61977
+
+mkVba
+dir
+
+tests
+dir
+
+macros
+dir
+
+doc
+dir
+
+autoload
+dir
+
+lh-vim-lib.README
+file
+
+
+
+
+2010-03-26T23:08:42.000000Z
+e714360622de2abab775793b38fa7281
+2008-11-04T02:12:55.886519Z
+136
+luc.hermitte
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+602
+
+plugin
+dir
+

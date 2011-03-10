@@ -1,0 +1,8 @@
+VimL:" $Id: xsl-value-of.template 33 2008-02-19 01:26:11Z luc.hermitte $
+VimL:"{xsl:value-of} Template File, Luc Hermitte
+VimL: let s:value_start  = '¡'
+VimL: let s:value_end    = '¡'
+VimL: let s:reindent     = 1 
+VimL: let s:marker_open  = '<+'
+VimL: let s:marker_close = '+>'
+<xsl:value-of select="<+XPath+>"/>

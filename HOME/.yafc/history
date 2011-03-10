@@ -1,0 +1,33 @@
+open root@192.168.200.79
+open ssh://root@192.168.200.79
+ls
+cd /opt/
+ls
+cd tadd
+ls
+get buildout.cfg
+get master.cfg
+get slave.cfg
+cd parts/
+ls
+cd projects/
+ls
+get tadd.cfg
+ls
+cd ../../
+ls
+cd develop-eggs/
+ls
+cd ../eggs/
+ls
+cd ../public_html/
+ls
+cd ../
+ls
+cd bin/
+ls
+cd ../../
+ls
+cd ..
+ls
+exit

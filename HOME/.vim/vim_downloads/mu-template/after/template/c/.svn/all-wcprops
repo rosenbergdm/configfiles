@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/33/mu-template/trunk/after/template/c
+END
+for.template
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/33/mu-template/trunk/after/template/c/for.template
+END
+while.template
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/33/mu-template/trunk/after/template/c/while.template
+END
+if.template
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/33/mu-template/trunk/after/template/c/if.template
+END
+fori.template
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/33/mu-template/trunk/after/template/c/fori.template
+END
+switch.template
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/33/mu-template/trunk/after/template/c/switch.template
+END
+do.template
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/33/mu-template/trunk/after/template/c/do.template
+END

@@ -1,0 +1,15 @@
+VimL:" $Id: switch.template 33 2008-02-19 01:26:11Z luc.hermitte $
+VimL:"{switch} Template-File, Luc Hermitte
+VimL: let s:value_start  = '¡'
+VimL: let s:value_end    = '¡'
+VimL: let s:reindent     = 1 
+VimL: let s:marker_open  = '<+'
+VimL: let s:marker_close = '+>'
+switch¡C_nl_before_bracket()¡(<+expr+>)¡C_nl_before_curlyB()¡{
+    case <+case+>:
+	<+code+>
+	break;
+    default:
+	<+code+>
+	break;
+}<++>

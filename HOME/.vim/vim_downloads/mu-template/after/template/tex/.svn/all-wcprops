@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/33/mu-template/trunk/after/template/tex
+END
+frame-vhelp-beamer.template
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/33/mu-template/trunk/after/template/tex/frame-vhelp-beamer.template
+END
+center.template
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/33/mu-template/trunk/after/template/tex/center.template
+END
+figure.template
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/33/mu-template/trunk/after/template/tex/figure.template
+END
+frame-beamer.template
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/33/mu-template/trunk/after/template/tex/frame-beamer.template
+END

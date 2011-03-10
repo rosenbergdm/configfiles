@@ -1,0 +1,9 @@
+VimL: " $Id: perl.template 33 2008-02-19 01:26:11Z luc.hermitte $
+VimL: let s:value_start  = '¡'
+VimL: let s:value_end    = '¡'
+VimL: let s:marker_open  = '<+'
+VimL: let s:marker_close = '+>'
+#!/usr/bin/perl
+# Author:	¡Author()¡
+# Purpose:	<+enter here+>
+# Created:	¡strftime("%c")¡

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/141/mu-template/trunk/after/template/vim
+END
+function.template
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/141/mu-template/trunk/after/template/vim/function.template
+END
+plugmap.template
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/141/mu-template/trunk/after/template/vim/plugmap.template
+END
+foreach.template
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/33/mu-template/trunk/after/template/vim/foreach.template
+END
+fori.template
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/33/mu-template/trunk/after/template/vim/fori.template
+END
+loop-arg.template
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/33/mu-template/trunk/after/template/vim/loop-arg.template
+END

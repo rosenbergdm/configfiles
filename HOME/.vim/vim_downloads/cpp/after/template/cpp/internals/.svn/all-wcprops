@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/41/cpp/trunk/after/template/cpp/internals
+END
+stream-signature.template
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/41/cpp/trunk/after/template/cpp/internals/stream-signature.template
+END
+stream-implementation.template
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/41/cpp/trunk/after/template/cpp/internals/stream-implementation.template
+END
+stream-common.template
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/41/cpp/trunk/after/template/cpp/internals/stream-common.template
+END

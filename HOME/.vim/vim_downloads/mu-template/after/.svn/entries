@@ -1,0 +1,34 @@
+9
+
+dir
+153
+http://lh-vim.googlecode.com/svn/mu-template/trunk/after
+http://lh-vim.googlecode.com/svn
+
+
+
+2009-02-19T01:59:52.354243Z
+141
+luc.hermitte
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+50c58283-e937-0410-a8aa-d7cab3d61977
+
+template
+dir
+
+plugin
+dir
+

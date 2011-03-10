@@ -1,0 +1,19 @@
+HOME:
+  - .bashrc
+  - .ghci
+  - .gitconfig
+  - .gvimrc
+  - .irbrc
+  - .replrc
+  - .vim
+  - .vimperatorrc
+  - .vimrc
+  - .Xdefaults
+  - .Xmodmap
+  - zshfunctions
+  - .zshrc
+  - .zshrc.d
+
+ETC:
+  - hostname
+

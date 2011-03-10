@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/41/cpp/trunk/syntax
+END
+cpp-funcdef.vim
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/41/cpp/trunk/syntax/cpp-funcdef.vim
+END
+cpp-throw-spec.vim
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/41/cpp/trunk/syntax/cpp-throw-spec.vim
+END
+c-assign-in-condition.vim
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/41/cpp/trunk/syntax/c-assign-in-condition.vim
+END
+cpp-badcast.vim
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/41/cpp/trunk/syntax/cpp-badcast.vim
+END
+cpp.vim
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/41/cpp/trunk/syntax/cpp.vim
+END
+c.vim
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/41/cpp/trunk/syntax/c.vim
+END

@@ -1,0 +1,80 @@
+9
+
+dir
+153
+http://lh-vim.googlecode.com/svn/UT/trunk
+http://lh-vim.googlecode.com/svn
+
+
+
+2009-02-21T16:04:50.838157Z
+151
+luc.hermitte
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+50c58283-e937-0410-a8aa-d7cab3d61977
+
+mkVba
+dir
+
+tests
+dir
+
+UT.README
+file
+
+
+
+
+2009-08-03T02:54:28.000000Z
+78b83285a5d73981d21d134b3eaf4a00
+2009-02-21T16:04:50.838157Z
+151
+luc.hermitte
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+509
+
+doc
+dir
+
+autoload
+dir
+
+ftplugin
+dir
+
+plugin
+dir
+

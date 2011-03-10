@@ -1,0 +1,4 @@
+VimL: " $Id: vim-other-scripts.template 33 2008-02-19 01:26:11Z luc.hermitte $
+VimL: "«Vim» unknown script kind Template File, Luc Hermitte
+let s:cpo_save=&cpo
+set cpo&vim

@@ -1,0 +1,15 @@
+VimL: " $Id: vim.template 121 2008-10-27 01:13:44Z luc.hermitte $
+VimL: "«Vim» Template File, Luc Hermitte
+VimL: let s:value_start  = '¡'
+VimL: let s:value_end    = '¡'
+VimL: let s:marker_open  = '<+'
+VimL: let s:marker_close = '+>'
+VimL: call s:Include('vim-header', 'vim/internals')
+VimL: let s:fn = substitute(expand("%:t:r"),'\W', '_', 'g') 
+VimL: call s:Include('get-script-kind', 'vim/internals')
+VimL: if s:ftplug | call s:Include('vim-ftplugin', 'vim/internals') | endif
+VimL: if s:alplug | call s:Include('vim-autoload-plugin', 'vim/internals') | endif
+VimL: if s:plugin | call s:Include('vim-plugin', 'vim/internals') | endif
+VimL: if !s:plugin &&!s:ftplug &&!s:alplug | call s:Include('vim-other-scripts', 'vim/internals') | endif
+VimL: " let s:ftplug = CONFIRM("Is this script an ftplugin ?", "&Yes\n&No", s:ftplug)==1
+VimL: call s:Include('vim-footer', 'vim/internals')

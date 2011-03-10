@@ -1,0 +1,86 @@
+9
+
+dir
+153
+http://lh-vim.googlecode.com/svn/cpp/trunk
+http://lh-vim.googlecode.com/svn
+
+
+
+2008-10-28T00:30:43.686282Z
+124
+luc.hermitte
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+50c58283-e937-0410-a8aa-d7cab3d61977
+
+after
+dir
+
+tests
+dir
+
+fold
+dir
+
+doc
+dir
+
+syntax
+dir
+
+changelog-cpp
+file
+
+
+
+
+2009-08-03T02:54:37.000000Z
+84eb24c4ed5d936c9ad975d94ddc35d9
+2008-02-21T00:32:16.529470Z
+41
+luc.hermitte
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9637
+
+autoload
+dir
+
+ftplugin
+dir
+
+plugin
+dir
+

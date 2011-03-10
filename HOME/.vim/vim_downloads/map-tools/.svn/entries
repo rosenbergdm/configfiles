@@ -1,0 +1,71 @@
+9
+
+dir
+153
+http://lh-vim.googlecode.com/svn/map-tools/trunk
+http://lh-vim.googlecode.com/svn
+
+
+
+2008-02-22T00:10:33.393231Z
+45
+luc.hermitte
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+50c58283-e937-0410-a8aa-d7cab3d61977
+
+mkVba
+dir
+
+doc
+dir
+
+lh-map-tools.README
+file
+
+
+
+
+2009-08-03T02:54:40.000000Z
+5c6836ab105a09d2a3ea7090256982c1
+2008-02-22T00:10:33.393231Z
+45
+luc.hermitte
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+781
+
+plugin
+dir
+

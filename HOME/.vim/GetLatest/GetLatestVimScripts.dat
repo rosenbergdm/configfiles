@@ -1,0 +1,42 @@
+ScriptID SourceID Filename
+--------------------------
+294  	 10110 	 :AutoInstall: 	 Align.vim
+120  	 9388  	 :AutoInstall: 	 decho.vim
+40   	 8798  	 :AutoInstall: 	 DrawIt.tar.gz
+642  	 8136  	 :AutoInstall: 	 GetLatestVimScripts.vim
+1066 	 7618  	 :AutoInstall: 	 cecutil.vim
+1502 	 11981 	 :AutoInstall: 	 vimball.vim
+642  	 8136  	 :AutoInstall: 	 getscript.vim
+1075 	 11979 	 :AutoInstall: 	 netrw.vim
+273  	 7701  	 :AutoInstall: 	 taglist.vim
+680  	 4216  	 :AutoInstall: 	 vimrplugin.tar.gz
+214  	 8591  	 :AutoInstall: 	 lh-vim-lib
+1697 	 12566 	 :AutoInstall: 	 surround.vim
+159  	 3640  	 :AutoInstall:
+52       12959   :AutoInstall: 	 calendar.vim
+194  	 4144  	 :AutoInstall: 	 MRU.vim
+42   	 12904 	 :AutoInstall: 	 bufexplorer.zip
+1658 	 11834 	 :AutoInstall: 	 NERD_tree.zip
+556 13075 :AutoInstall: 	 perl_support.vim
+40   	 8798  	 :AutoInstall: 	 DrawIt.vim
+120  	 9388  	 :AutoInstall: 	 Decho.vim
+197  	 11399 	 :AutoInstall: 	 GenUtils.zip
+95   	 754   	 :AutoInstall: 	 winmanager.vim
+356  	 11341 	 :AutoInstall: 	 dbext.vim
+1643 	 11853 	 :AutoInstall: 	 SuperTab.vba
+889  	 7221  	 :AutoInstall: 	 EvalSelection.vim
+69   	 6273  	 :AutoInstall: 	 Project.tar.gz
+1863 	 12751 	 :AutoInstall:   tlib.vim
+1643 	 11853 	 :AutoInstall: 	 supertab.vim
+1318     8450    :AutoInstall: 	 snippetsEmu
+39       8196    :AutoInstall:   matchit.zip
+2389     9430    :AutoInstall:   pdc.vim
+30       9196    :AutoInstall:   python.vim
+850      11062   :AutoInstall:   pydiction.vim
+1520 7722 :AutoInstall:   OmniCppComplete
+213 13077 :AutoInstall:   cvim.zip
+2945 13181 :AutoInstall:   AutomaticTexPlugin.vba
+3104 13143 :AutoInstall:   pyref.zip
+3064 12892 :AutoInstall:  after/synax/c.vim
+5 4884 :AutoInstall: doxygen.zip
+

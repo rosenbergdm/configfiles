@@ -1,0 +1,10 @@
+PATH=/bin:/usr/bin:/usr/local/bin
+VERBOSE=off
+DEFAULT=/var/spool/mail/root
+MAILDIR=$HOME/mail
+LOGFILE=$HOME/log/procmail.log
+
+:0:
+* ^TOmutt-user
+mutt
+

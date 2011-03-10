@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/142/misc/trunk/plugin
+END
+Triggers.vim
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/130/misc/trunk/plugin/Triggers.vim
+END
+vim-tip-swap-word.vim
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/130/misc/trunk/plugin/vim-tip-swap-word.vim
+END
+MoveToCol.vim
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/142/misc/trunk/plugin/MoveToCol.vim
+END
+help.vim
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/130/misc/trunk/plugin/help.vim
+END
+block-indent.vim
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/130/misc/trunk/plugin/block-indent.vim
+END
+local_vimrc.vim
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/130/misc/trunk/plugin/local_vimrc.vim
+END
+diffsaved.vim
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/130/misc/trunk/plugin/diffsaved.vim
+END
+fr-abbr.vim
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/130/misc/trunk/plugin/fr-abbr.vim
+END
+footnote.vim
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/130/misc/trunk/plugin/footnote.vim
+END
+let-modeline.vim
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/130/misc/trunk/plugin/let-modeline.vim
+END

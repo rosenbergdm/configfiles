@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/143/misc/trunk
+END
+vimrc_core.vim
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/143/misc/trunk/vimrc_core.vim
+END
+myfiletypes.vim
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/130/misc/trunk/myfiletypes.vim
+END
+_gvimrc
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/130/misc/trunk/_gvimrc
+END
+mysyntaxfile
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/130/misc/trunk/mysyntaxfile
+END
+_vimrc_win
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/130/misc/trunk/_vimrc_win
+END
+mysettingfile.vim
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/130/misc/trunk/mysettingfile.vim
+END
+_vimrc_nix
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/130/misc/trunk/_vimrc_nix
+END

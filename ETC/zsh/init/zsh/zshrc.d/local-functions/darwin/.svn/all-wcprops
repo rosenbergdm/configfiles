@@ -1,0 +1,899 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/150/trunk/Library/init/zsh/zshrc.d/local-functions/darwin
+END
+customize_x11_gui
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/customize_x11_gui
+END
+gnotify
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/gnotify
+END
+unixify_rootfiles
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/unixify_rootfiles
+END
+ntab
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/ntab
+END
+snotify
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/snotify
+END
+whichfunctions
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/whichfunctions
+END
+_users
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_users
+END
+posfind
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/posfind
+END
+nfs_niloader
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/nfs_niloader
+END
+da2preview
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/da2preview
+END
+finder_update
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/finder_update
+END
+_mac_files_for_application
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_mac_files_for_application
+END
+battery
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/battery
+END
+_launchctl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_launchctl
+END
+renew_dhcp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/renew_dhcp
+END
+forklift
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/142/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/forklift
+END
+newx
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/newx
+END
+_switch_users
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_switch_users
+END
+aeon
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/aeon
+END
+wallpaper
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/wallpaper
+END
+_mdattr
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/119/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_mdattr
+END
+full_path_in_finder
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/full_path_in_finder
+END
+fdc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/fdc
+END
+user_setup
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/user_setup
+END
+function_key_toggle
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/function_key_toggle
+END
+a2preview
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/a2preview
+END
+pashua_run
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/149/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/pashua_run
+END
+_chflags
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_chflags
+END
+sd
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/sd
+END
+zshf
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/zshf
+END
+ntrm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/ntrm
+END
+switch_users
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/149/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/switch_users
+END
+_init_open
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_init_open
+END
+mate
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/mate
+END
+_retrieve_mac_apps
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_retrieve_mac_apps
+END
+my_prefs_edit
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/my_prefs_edit
+END
+sudo_open
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/sudo_open
+END
+host_setup
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/host_setup
+END
+_mdutil
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_mdutil
+END
+cpath
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/cpath
+END
+_get_running_apps
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_get_running_apps
+END
+addgroup
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/addgroup
+END
+_sd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_sd
+END
+_guidirs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_guidirs
+END
+_open-x11
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_open-x11
+END
+guidirs_pashua
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/guidirs_pashua
+END
+_tmpj
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_tmpj
+END
+disable_Dashboard
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/disable_Dashboard
+END
+customize_x11
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/customize_x11
+END
+osa_choose_list
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/osa_choose_list
+END
+spath
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/spath
+END
+airport
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/airport
+END
+zsh_cache_cleaner
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/zsh_cache_cleaner
+END
+_quit
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_quit
+END
+mybom
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/mybom
+END
+remotex
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/remotex
+END
+osa_display_dialog
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/osa_display_dialog
+END
+add_user
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/add_user
+END
+cpbcp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/cpbcp
+END
+composer
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/composer
+END
+_cdd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_cdd
+END
+cdd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/cdd
+END
+rmm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/rmm
+END
+cdf
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/cdf
+END
+8bitx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/8bitx
+END
+whatsnew
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/whatsnew
+END
+delete_user
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/delete_user
+END
+_mdfind
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/112/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_mdfind
+END
+_hdiutil
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_hdiutil
+END
+_macmail
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_macmail
+END
+_a2preview
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_a2preview
+END
+_FinkMakeListCache
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_FinkMakeListCache
+END
+_mac_applications
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_mac_applications
+END
+numcpu
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/150/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/numcpu
+END
+sss
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/sss
+END
+cds
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/cds
+END
+cdt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/cdt
+END
+tmpj
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/tmpj
+END
+configure_zsh_templates_asgui
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/configure_zsh_templates_asgui
+END
+delete_group
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/delete_group
+END
+quit
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/quit
+END
+quit_app
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/quit_app
+END
+frameerrnum
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/frameerrnum
+END
+osa_file_browser
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/osa_file_browser
+END
+configure_zsh_templates_pashua
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/configure_zsh_templates_pashua
+END
+pbcp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/pbcp
+END
+_edit
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_edit
+END
+mlocate
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/mlocate
+END
+fink_web
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/fink_web
+END
+tcmd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/tcmd
+END
+help_zsh_templates
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/help_zsh_templates
+END
+mdattr
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/118/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/mdattr
+END
+empty_trash
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/empty_trash
+END
+switch_prompt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/switch_prompt
+END
+_defaults
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_defaults
+END
+_comp_appgetter
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_comp_appgetter
+END
+startremote
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/startremote
+END
+_man
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_man
+END
+help_template_functions
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/help_template_functions
+END
+customize_x11_10.4
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/customize_x11_10.4
+END
+customize_x11_10.5
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/customize_x11_10.5
+END
+xtwit
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/xtwit
+END
+mailit
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/mailit
+END
+posgrep
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/posgrep
+END
+selectfile
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/selectfile
+END
+configure_zsh_templates
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/configure_zsh_templates
+END
+edit
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/edit
+END
+adduser2group
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/adduser2group
+END
+switcher
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/switcher
+END
+osa_direc_browser
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/osa_direc_browser
+END
+enable_Dashboard
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/enable_Dashboard
+END
+MacRm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/MacRm
+END
+zipit
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/zipit
+END
+_mdfind_pashua
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_mdfind_pashua
+END
+llock
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/llock
+END
+cpos
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/cpos
+END
+acl_adduser
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/136/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/acl_adduser
+END
+my_mac_applications
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/my_mac_applications
+END
+scrollspeed
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/scrollspeed
+END
+startenlightenment
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/startenlightenment
+END
+customize_x11_gui_10.4
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/customize_x11_gui_10.4
+END
+customize_x11_gui_10.5
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/customize_x11_gui_10.5
+END
+sync_fink
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/sync_fink
+END
+cdright
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/cdright
+END
+host_user_completion_settings
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/host_user_completion_settings
+END
+_fink
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_fink
+END
+remove_user_from_group
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/remove_user_from_group
+END
+_open
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/149/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_open
+END
+_xattr
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/120/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_xattr
+END
+cdleft
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/cdleft
+END
+posd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/posd
+END
+exportfs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/exportfs
+END
+enable_faster_open
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/enable_faster_open
+END
+_completion_gui
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_completion_gui
+END
+_init_open_tiger
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_init_open_tiger
+END
+toggle_spaces
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/toggle_spaces
+END
+_fink_web
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_fink_web
+END
+fink
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/fink
+END
+_softwareupdate
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_softwareupdate
+END
+_mdls
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_mdls
+END
+open
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/open
+END
+addIcon
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/addIcon
+END
+startwm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/startwm
+END
+macmail
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/macmail
+END
+powermate_control
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/powermate_control
+END
+open-x11
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/open-x11
+END
+_qtplay
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/_qtplay
+END
+eds
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/eds
+END
+myip
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/darwin/myip
+END

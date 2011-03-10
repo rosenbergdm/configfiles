@@ -1,0 +1,31 @@
+//===------------- __expand("%")__ - SHORT DESCRIPTION ------------===//
+//
+//
+//
+// This file is distributed under the University of Illinois Open Source
+// License. See LICENSE.TXT for details.
+//
+//===-------------------------------------------------------------------===//
+//
+// LONG DESCRIPTION
+//
+//===-------------------------------------------------------------------===//
+//
+// Author:      David M. Rosenberg <david.m.rosenberg@gmail.comn>
+// Version:     0.01
+// Creaded:     __strftime("%D")__
+// Revision:    0
+//
+//===-------------------------------------------------------------------===//
+
+
+#ifndef _ __toupper(expand("%:t:r"))__ _ __toupper(expand("%:e"))__ _
+#define _ __toupper(expand("%:t:r"))__ _ __toupper(expand("%:e"))__ _
+
+
+
+
+
+
+#endif /* _ __toupper(expand("%:t:r"))__ _ __toupper(expand("%:e"))__ _ */
+// vim: set ft=c

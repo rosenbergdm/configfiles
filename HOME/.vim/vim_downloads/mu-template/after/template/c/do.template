@@ -1,0 +1,10 @@
+VimL:" $Id: do.template 33 2008-02-19 01:26:11Z luc.hermitte $
+VimL:"{do-while} Template-File, Luc Hermitte
+VimL: let s:value_start  = '¡'
+VimL: let s:value_end    = '¡'
+VimL: let s:reindent     = 1 
+VimL: let s:marker_open  = '<+'
+VimL: let s:marker_close = '+>'
+do¡C_nl_before_curlyB()¡{
+    <+code+>
+}¡C_nl_before_curlyB()¡while¡C_nl_before_bracket()¡(<+cond+>);<++>

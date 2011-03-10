@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/150/trunk/Library/init/zsh/zshrc.d
+END
+101_environment.keybindings.vi.zsh.disabled
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/91/trunk/Library/init/zsh/zshrc.d/101_environment.keybindings.vi.zsh.disabled
+END
+190_environment.sysmaintenance.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/148/trunk/Library/init/zsh/zshrc.d/190_environment.sysmaintenance.zsh
+END
+prompt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/85/trunk/Library/init/zsh/zshrc.d/prompt
+END
+001_fink_env.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/73/trunk/Library/init/zsh/zshrc.d/001_fink_env.zsh
+END
+111_environment.options.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/97/trunk/Library/init/zsh/zshrc.d/111_environment.options.zsh
+END
+200_environment.local.legacy.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/111/trunk/Library/init/zsh/zshrc.d/200_environment.local.legacy.zsh
+END
+101_environment.keybindings.emacs.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/92/trunk/Library/init/zsh/zshrc.d/101_environment.keybindings.emacs.zsh
+END
+141_environment.styles.additional.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/73/trunk/Library/init/zsh/zshrc.d/141_environment.styles.additional.zsh
+END
+020_aliases.main.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/79/trunk/Library/init/zsh/zshrc.d/020_aliases.main.zsh
+END
+180_environment.login.message.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/73/trunk/Library/init/zsh/zshrc.d/180_environment.login.message.zsh
+END
+101_environment.keybindings.zshall.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/133/trunk/Library/init/zsh/zshrc.d/101_environment.keybindings.zshall.zsh
+END
+000_README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/73/trunk/Library/init/zsh/zshrc.d/000_README.txt
+END
+005_path_env.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/95/trunk/Library/init/zsh/zshrc.d/005_path_env.zsh
+END
+121_environment.completions.additional.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/85/trunk/Library/init/zsh/zshrc.d/121_environment.completions.additional.zsh
+END
+140_environment.styles.main.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/85/trunk/Library/init/zsh/zshrc.d/140_environment.styles.main.zsh
+END
+031_functions.additional.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/137/trunk/Library/init/zsh/zshrc.d/031_functions.additional.zsh
+END
+131_environment.variables.additional.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/134/trunk/Library/init/zsh/zshrc.d/131_environment.variables.additional.zsh
+END
+002_macports.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/73/trunk/Library/init/zsh/zshrc.d/002_macports.zsh
+END
+021_aliases.additional.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/132/trunk/Library/init/zsh/zshrc.d/021_aliases.additional.zsh
+END
+environment.x11.oldsetup.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/85/trunk/Library/init/zsh/zshrc.d/environment.x11.oldsetup.zsh
+END
+zshrc.finalentries.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/99/trunk/Library/init/zsh/zshrc.d/zshrc.finalentries.zsh
+END
+030_functions.distributed.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/81/trunk/Library/init/zsh/zshrc.d/030_functions.distributed.zsh
+END

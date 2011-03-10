@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/135/trunk/Library/init/zsh/zshrc.d/local-functions/xtal
+END
+cns_web
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/107/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/cns_web
+END
+overlay
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/overlay
+END
+xdlmapman
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/xdlmapman
+END
+pdb_contents
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/pdb_contents
+END
+_sca2mtz
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/_sca2mtz
+END
+sca2mtz
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/sca2mtz
+END
+cns
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/105/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/cns
+END
+canonicalize_pdb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/canonicalize_pdb
+END
+fix_namot
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/fix_namot
+END
+_cns_edit
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/_cns_edit
+END
+cns_edit
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/107/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/cns_edit
+END
+_pdbsuffix
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/_pdbsuffix
+END
+mos2fobs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/mos2fobs
+END
+ono
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/ono
+END
+_mtzsuffix
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/_mtzsuffix
+END
+_pymol
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/_pymol
+END
+ccp4_patches
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/ccp4_patches
+END
+pymol
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/pymol
+END
+_ccp4help
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/_ccp4help
+END
+_ccp4_programs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/_ccp4_programs
+END
+ccp4help
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/ccp4help
+END
+_coot
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/135/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/_coot
+END
+coot
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/135/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/coot
+END
+mapcoverdiff
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/mapcoverdiff
+END
+getpdb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/getpdb
+END
+rwcontents
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/rwcontents
+END
+usf_installer
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/usf_installer
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/README.txt
+END
+mapcover
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/mapcover
+END
+xdldataman
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/xtal/xdldataman
+END

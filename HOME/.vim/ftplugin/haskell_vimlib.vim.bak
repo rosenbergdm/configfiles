@@ -1,0 +1,60 @@
+"|fld   description : vimlib haskell usage demo
+"|fld   initial author : Marc Weber marco-oweber@gmx.de
+"|fld   mantainer : author
+"|fld   started on : 2006 Nov 01 23:34:48
+"|fld   version: 0.0
+"|fld   contributors : <+credits to+>
+"|fld   maturity: beta
+
+set autoindent
+
+" gf-Handler
+noremap <buffer> gf :call vl#ui#navigation#gfHandler#HandleGF()<cr>
+  call vl#ui#navigation#gfHandler#AddGFHandler("vl#dev#haskell#modules_list_cache_jump#GetPossibleImportHaskellFilenamesWithSameBase()")
+  call vl#ui#navigation#gfHandler#AddGFHandler("vl#dev#haskell#modules_list_cache_jump#PathOfModule('^'.expand('<cWORD>').'$')")
+" completion
+"   function
+"setlocal omnifunc=vl#dev#haskell#modules_list_cache_jump#CompleteFunction
+" this is to slow :
+"  inoremap <buffer> <c-m-f> <c-r>=vl#lib#completion#useCustomFunctionNonInteracting#GetInsertModeMappingText('omnifunc','vl#dev#haskell#modules_list_cache_jump#CompleteFunction',"\<c-x>\<c-o>")<cr>
+" function completion mapping
+inoremap <buffer> <c-m-f> <c-o>:set omnifunc=vl#dev#haskell#modules_list_cache_jump#CompleteFunction<cr><c-x><c-o>
+" type (data, (new)type completion mapping (-t is used by template system)
+inoremap <buffer> <c-m-y> <c-o>:set omnifunc=vl#dev#haskell#modules_list_cache_jump#CompleteType<cr><c-x><c-o>
+"   module
+inoremap <buffer> <c-m-m> <c-r>=vl#lib#completion#useCustomFunctionNonInteracting#GetInsertModeMappingText('omnifunc','vl#dev#haskell#modules_list_cache_jump#CompleteModuleImportName',"\<c-x>\<c-o>")<cr>
+
+" modules
+command! -buffer -nargs=0 UpdateModuleCacheAll :call vl#dev#haskell#modules_list_cache_jump#RescanAll()<cr>
+command! -buffer -nargs=0 AddCurrentDirToModulCache :call vl#dev#haskell#modules_list_cache_jump#AddDirToModulCache(getcwd())<cr>
+command! -buffer -nargs=1 -complete=file AddDirToModulCache :call vl#dev#haskell#modules_list_cache_jump#AddDirToModulCache(<f-args>)<cr>
+command! -buffer -nargs=0 RemoveDirectoryFromCache :call vl#dev#haskell#modules_list_cache_jump#RemoveDirectoryFromCache()
+command! -buffer -nargs=1 OpenModuleByRegex :call vl#dev#haskell#modules_list_cache_jump#OpenModuleByRegex(<f-args>)<cr>
+
+" One-Choice-Completion:  
+call vl#lib#completion#contextcompletion#InitContextCompletion(
+         \ [ [ "Tab",'<tab>','b:tab_compl']
+	 \ ])
+	 "\ , [ "CR" ,'<cr>' ,'b:cr_compl', "\<cr>" ] 
+  " preprocessor directives:
+" call  vl#dev#c#tab_complete_completions#AddCPPCompletions()
+
+" templates
+" adds commands and mappings for template usage
+call vl#lib#template#template#AddTemplateUI(vl#settings#DotvimDir().'templates/haskell')
+" add some useful templates
+call vl#lib#template#template#AddTemplate('instance Show', 
+  \ join( [ "[% let vars['type'] = input('show implementation of which type ',vl#dev#haskell#template_helper_functions#DataDeclarationTypeAboveCursor()) %]instance Show ([% = vars['type'] %]) where"
+	\ , "\<c-t>show ([% = vars['type'] %] "
+	\ , ]
+	\ , "\n" ) )
+
+" automatically insert module header:
+" ( module path is taken from relative filename. If you're editing
+" scr/ABC/Test.hs ABC.Test will get inserted
+if !filereadable(expand('%'))
+  exec 'normal imodule '.substitute(substitute(expand('%:r'),'/','.','g'),'^\U*\.','','')." where\<cr>\<Esc>"
+endif
+
+" goto last import line
+map <m-g><m-i> :call search('\<import\>','b')<CR>

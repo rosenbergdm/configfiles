@@ -1,0 +1,129 @@
+				#################################################
+				#################################################
+				#                                               #
+				#                  /etc/zshrc                   #
+				#                                               #
+				#################################################
+				#################################################
+
+
+# File:  /etc/zshrc
+# Version: 2.0.0
+
+###############################################################################
+ 
+#  Created by William G. Scott on January 2, 2009.
+#  Copyright (c) . All rights reserved.
+
+
+#    This program is free software; you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation; either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program; if not, write to the Free Software
+#    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 
+#    USA                                                                       
+#                                                                              
+#    cf. URL:   http://www.fsf.org/licensing/licenses/gpl.html                 
+#                                                                              
+############################################################################## 
+
+
+
+#    This file, and those sourced from within it, will not be read with zsh -f
+                                                                              
+                                                                              
+      
+                                                                        
+                                                                              
+                                                                              
+                                                                              
+##############################################################################
+#########################        zshrc.d           ###########################
+##############################################################################
+
+#   Put any modified directives for the systemwide zshrc in files within 
+#   ${ZDOT}/zshrc.d
+#   See ${ZDOT}/zshrc.d/README for additional information.
+
+	if [[  -d "${ZDOT}/zshrc.d" ]]; then
+		foreach file in $(command ls -d ${ZDOT}/zshrc.d/* | grep -v disabled | \
+			              grep -v README | grep -v environment.xtal | \
+			              grep -v local-functions | grep -v prompt )
+		    source $file
+		end
+	fi
+	
+############################################################################## 
+                                                                               
+                                                                               
+                                                                               
+                     
+
+                                                          
+                                                                               
+                                                                               
+############################################################################## 
+####################        zshrc_local.d           ########################## 
+############################################################################## 
+
+#   Put any additional directives for the systemwide zshrc in files within 
+#   ${ZDOT}/zshrc_local.d .   This directory is empty when distributed. Its 
+#   contents are run after everything in zshenv.d and zshrc.d .
+#   See ${ZDOT}/zshrc_local.d/README for additional information.
+
+	if [[  -d "${ZDOT}/zshrc_local.d" ]]; then
+		foreach file in $(command ls -d ${ZDOT}/zshrc_local.d/* | grep -v disabled | \
+			              grep -v README |  grep -v site-functions )
+		    source $file
+		end
+	fi
+	
+##############################################################################
+                                                                              
+                                                                              
+                                                                              
+                                                                              
+           
+
+                                                                   
+                                                                              
+##############################################################################
+##########        zshrc_local.d/site-functions          ######################
+##############################################################################
+
+#   Put any additional functions for the systemwide zshrc in files within 
+#   ${ZDOT}/zshrc_local.d/site-functions .  This directory is empty when 
+#   distributed. Its contents are run after everything in zshenv.d and zshrc.d
+#   See ${ZDOT}/zshrc_local.d/README for additional information.
+
+	if [[  -d "${ZDOT}/zshrc_local.d/site-functions" ]]; then
+
+	    if ((  $( command ls -1  ${ZDOT}/zshrc_local.d/site-functions/* |wc -l ) > 1 )); then
+	        # Add the function directory to the head of $FPATH
+		    FPATH=${ZDOT}/zshrc_local.d/site-functions:${FPATH}
+		    export FPATH
+		    typeset -U path manpath fpath
+		    # Autload every function in the site-functions directory
+			foreach fxnfile in $(command ls -d ${ZDOT}/zshrc_local.d/site-functions/* | grep -v README )
+			    autoload -U $(basename $fxnfile)
+			end
+		fi	
+	
+	fi
+	
+##############################################################################
+
+
+
+# The user's own directives can be put into ~/.zshrc
+
+
+

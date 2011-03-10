@@ -1,0 +1,19 @@
+#!/usr/bin/env R
+#===============================================================================
+#
+#         FILE:  __expand("%")__
+#
+#        USAGE:  ---
+#
+#  DESCRIPTION:  ---
+#
+#      OPTIONS:  ---
+# REQUIREMENTS:  ---
+#         BUGS:  ---
+#        NOTES:  ---
+#       AUTHOR:  David M. Rosenberg <rosenbergdm@uchicago.edu>
+#      COMPANY:  University of Chicago
+#      VERSION:  1.0
+#      CREATED:  __strftime("%D")__
+#     REVISION:  ---
+#===============================================================================

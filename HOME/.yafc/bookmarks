@@ -1,0 +1,8 @@
+# this is an automagically created file
+# so don't bother placing comments here, they will be overwritten
+# make sure this file isn't world readable if passwords are stored here
+
+machine ssh://192.168.200.79:22 alias '192.168.200.79'
+  login root cwd '/'
+
+# end of bookmark file

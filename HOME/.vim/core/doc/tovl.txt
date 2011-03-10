@@ -1,0 +1,580 @@
+*tovl.txt*	For Vim version 7.2.
+
+==============================================================================
+
+            ---------------------------------------
+                         TOVL (The one vimlib)
+            ---------------------------------------
+
+  !First of all: I need your help to make this a big success!
+
+==============================================================================
+
+HOWTO: You want to start using TOVL ? Start by headline 3. installation which
+continues with a small tutorial.
+
+1. Contents						*tovl-contents*  {{{1
+
+1.  Contents  .............................................|tovl-contents|
+
+2.  Why and what is TOVL ..................................... |tovl-why|
+
+3.  installation / updating TOVL / How to contribute /
+    contact
+
+4.  TOVL and plugin configuration  ........................... |tovl-config|
+      GLOBAL CONFIG
+      TOVL SHELL ESC HACK
+      STRUCTURE
+      MULTIPLE (PROJECT SPECIFIC) CONFIGURATION FILES
+      CONFIG CACHE
+      MERGING CONFIGURATIONS
+      EDITING THE CONFIGURATION AND LOADING PLUGINS
+
+5.   TOVL design notes
+
+6.   TOVL feature sets
+
+7.   TOVL library: a small introduction to things you should know
+      TOVL TESTS
+      TOVL TYPE
+      TOVL OBJECT (OOP)
+      TOVL LOGGING
+      TOVL CHOOSE
+      TOVL TRY
+      TOVL ERROR FORMATS
+      TOVL RUN TASK MAYBE IN BACKGROUND
+      TOVL FUNCTION REFERENCES
+      TOVL ACTION
+      TOVL ...
+
+8.   Writing TOVL plugins ................................. |tovl-plugins|
+
+10.  TOVL FUNCTION REFERENCE (TODO)
+      list of TOVL functions you should know about.
+
+11.  Does tovl has some support for language or filetype X ?|tovl-lang-support|
+
+20.  3rd party libraries, other code you should know about
+      vimtlib
+
+100. wish-list
+
+==============================================================================
+2. Why and what is TOVL					*tovl-why*  {{{1
+   
+  TOVL tries to be
+  - a configuration system for plugins
+  - a high quality code base which everyone can depend uppon maximizing code sharing
+  - open: everyone should be able to contribute his code and ideas
+
+  People are reimplementing the same stuff over and over again.
+  Maybe we can mimimize this using an open library.
+  There is still very much which can be done.
+
+  There is already vim.org and page http://xy, what is different?
+  Noone of those script collections really solves one problem:
+    How to update scripts while preseving your modified mappings ?
+  How does TOVL solve this?
+  TOVL separates the configuration of a "plugin" from the implementation.
+  See |tovl-config|. It also tries to do the download and collection work for
+  you. The downside is that you'll have a lot of files laying around which you
+  won't use ever. However using |autoload-functions| this shoud be cheap and
+  only waste some disk space.
+
+  Q: Do we really need TOVL?
+  R: Yes, people are already using emacs because some things do just work.
+  (You can make them work in vim as well.. But you have to spend much more
+  time on it..)
+
+==============================================================================
+
+3. installation / updating TOVL / How to contribute / contact *tovl-update* {{{1
+
+  TOVL development is tracked by git. git is a decentralised version control
+  system.
+
+  To get TOVL there are two ways:
+    a) use an packed archive (.zip, .tar.gz)
+        http://github.com/MarcWeber/theonevimlib (-> download button)
+    b) use git (recommended) >
+        git clone git://github.com/MarcWeber/theonevimlib.git
+        git pull # this updates the repository
+<      you'll get the whole development history as well.
+
+  To install TOVL simply add this to your .vimrc >
+    set runtimepath+=<pathtotovl>/core
+    " set |tovl-global-config| options
+    call theonevimlibsetup#Setup()
+< Then run :helptags Path_TO_DEST/core/doc
+
+  basic setup (mandatory!):
+  1) Run command >
+     TOVLConfig
+<    You'll be asked wether you want to activate a bunch of recommended
+     plugins. Say y here. If you want to use <m-*> or <m-s-*> mappings
+     in console you should deactivate the PluginMap and activate
+     PluginMapEscHack instead (see |tovl-shell-esc-hack|)
+
+  4) Now write the buffer to make the changes permanent. >
+     :w
+
+< Continue either with
+  a) |tovl-config-tutorial|
+  b)  some of the *.txt files found in this doc directory as well
+      Not everything is worth putting into a tovl plugin. However many
+      things are worth writing down. This can be extended to a nice
+      (maintained) tip collection..
+      |ft_xml.txt|
+  
+  (if you don't read this within the vim help browser goto the end of
+  core/doc/tovl-config-buffer.txt)
+
+  *tovl-contribute*
+  You can contribute in various ways:
+    a) tell me what you (dis)like
+    b) send (git) patches or tell me to pull from somewhere
+
+  My first idea was to allow everyone to push to the git repository.
+  However some people (including Bram) argued that this might be a security
+  risk. Anyway you have to trust me ;-)
+
+----------------------
+  *tovl-contact*
+  contact: (add your address as well if you like)
+  MarcWeber on irc.freenode.org or mail: marco-oweber@gmx.de
+
+  If this project takes of we'll either move discussion to vim-users (if there
+  is low traffic only) or create a new mailinglist..
+==============================================================================
+4.  TOVL and plugin configuration                          *tovl-config* {{{1
+
+GLOBAL CONFIG                                   *tovl-global-config*
+
+  Ideally this should be done by a plugin as well.
+  (-> |tovl-wish-list|). 
+  However you can set these options in your .vimrc
+  * |config#filesFunc|
+  * |config#DotVim| Which is your default ~/.vim directory defaulting to
+                    split(&runtimepath,',')[0]
+  * |tovl-log-config|
+  * |tovl-shell-esc-hack|
+  * |tovl-config-dont-add-defaults|
+  * vim setting (additional to tovl#runtaskinbackground#Vim()) (TODO)
+
+TOVL SHELL ESC HACK				*tovl-shell-esc-hack*
+  Most shells don't support <m-*> mappings because the Meta key is sent as
+  Esc. By activating |PluginMapEscHack| instead of |PluginMap|
+   <m-a> will be replaced by <esc>a and <m-s-a> by <esc>A. The additional
+   commands Nnoremap Noremap Inoremap Vnoreamp will be defined.
+  which is what the terminal vim is most likely to receive. However don't
+  blame me if strange things start happening because multiple key combinations
+  will be mapped to the same codes.. I'm happy with this setup.
+  Using something like this for x in [all characters] >
+  set <m-x>=^[x
+< could do this as well ?
+
+STRUCTURE                                       *tovl-config-bar* {{{2
+
+    The TOVL configuration is basically a huge dictionary. Vim can serialize
+    this easily (string, eval). So I think this is fastest when reading.
+    You should use config#Get() and config#Set() to access options.
+
+    However the output of string(<some dict>) is hard to read. That's why
+    TOVL has an implementation to serialize arbitrary vim types to human
+    readable text using python like indentation. (config#ToBuffer,
+    config#FromBuffer)
+
+    However you don't have to call them yourself, see EDITING below
+    Also see |config#GetByPath()| |config#GetG()|
+
+MULTIPLE PROJECT SPECIFIC CONFIGURATION FILES  *tovl-project-specific* {{{2
+
+    TOVL supports multiple configuration files. Use >
+
+    *config#filesFunc*
+	call config#SetG('config#filesFunc',
+	  \ library#Function("return [expand('$HOME').'/.theonevimlib_config']")
+<
+    in your .vimrc to define a different list. Be careful that only you have
+    access to them because someone else might add malicious code.
+    (TODO check file premisions)
+
+CONFIG CACHE					*tovl-config-cache* {{{2
+
+    TOVL doesn't reread the configuration files from disk automatically
+    if the timestamp is newer. Also the configuration file is written
+    automatically if you set a value. TOVL tries to minimize the chance that
+    one vim instance overrides the configuration written by another instance.
+    The function doing all the dirty work for you is |config#ScanIfNewer|.
+    You can use it in your own scripts. (I've done so to provide vimscript
+    function completion).
+
+MERGING CONFIGURATION				*tovl-config-merge* {{{2
+
+    Imagine a plugin inserting templates. To configure it you have to tell
+    it about a list of directories containing those.
+    Now you work on a project and you'd like to use your own plugins and
+    project specific ones. One solution is to have a
+    plugin#template_sources directory list in you personal config and in the
+    configuration file of the project directory. Now you can specify a merge
+    function which concatenates both lists (see config.vim) However its very
+    likely that this changes. I'd like to define the merge functions within
+    the config as well (TODO)
+
+EDITING THE CONFIGURATION AND LOADING PLUGINS      *tovl-config-edit* {{{2
+    See |tovl-config-buffer.txt|
+
+==============================================================================
+5.   TOVL design notes				*tovl-design-nodes* {{{1
+
+  If you implement a feature try to do it in a way that it can be reused.
+  Example: multiple_completions.vim keeps a list for each buffer.
+  You can pick a completion to be used.
+  This is much better than assigning completefunc yourself because users might
+  want to use different plugins at the same time. Eg in PHP it does make sense
+  to have SQL and PHP and maybe even HTML or Javascript completion
+  functions..
+
+  I had in mind to never break things by using >
+    file#v1#Func()
+< then change that to  >
+    file#v1#Func()
+< if the interface changes
+
+  However this will lead to many different files doing the same thing which is
+  even more evil than breaking things once to make things better.
+  The biggest problem about changing interfaces is that all depending code has
+  to be changed as well. This can be done in one reposiotry. But this is much
+  harder (I'd even say impossible) when using a distribution system such as
+  scripts on www.vim.org.
+
+  Another example is tovl/ui/open_thing_at_cursor.vim or |library#Try()|
+
+  If you don't know yet what arguments a function will require consider using
+  a dictionary as optional arg. Then use something like this: >
+    fun X(...)
+      let opts = a:0 > 0 ? a:1 : <+default+>
+      if get(opts, 'key', default)
+      endif
+    endfun
+<
+  What else to put here?
+
+==============================================================================
+6.   TOVL feature sets:					*tovl-feature-sets* {1
+
+  Vim has: filetypes. To add html features to a php file you typically do
+  runtime ftplugin/php*.vim. However this typically also overrides your
+  completion func.. :-(
+
+  So there should be a way to only add some of the html mappings when editing
+  php files? That what TOVL feature sets are about:
+
+  You have features (mappings, commands, completion functions). You give this
+  set of features a name which I call a tag. For example your tag could be
+  ReplaceSpecialChars
+
+  Then you can use   *BufferFeatureTags*  >
+    BufferFeatureTags ReplaceSpecialChars
+< to add those commands and >
+    BufferFeatureTags -ReplaceSpecialChars
+< to remove them again. You can add more than one tag at the same time: >
+    BufferFeatureTags -ReplaceSpecialChars Foo -Bar
+
+< Get the current status by ivoking the command without arguments: >
+    BufferFeatureTags
+<
+  So what about global mappings such as version control commands or Grep?
+  There is the command *GlobalFeatureTags* for those.
+
+  Note! you have to enable the plugin |PluginFeatureSet| to get those
+  commands.
+
+  You can extend the supported types of features. Have a look at the
+  |PluginMoveToThingAtCursor| plugin. *tovl-feature-set-extending*
+
+  Also see |tovl-config-feature-sets|
+
+==============================================================================
+7.   TOVL library:					*tovl-library* {1
+
+      ----------------------------------------------
+      a small introduction to things you should know 
+      ----------------------------------------------
+
+TOVL TESTS						*tovl-tests* {{{2
+
+    If you browse the library you'll see *_test.vim files. They contain
+    some tests to ensure the library behaves as expected. Maybe there will
+    be automatic test runners in the future.
+
+TOVL TYPES						*tovl-type* {{{2
+
+    I was faced by a problem (-> |tovl-function-references|). Therefore
+    I had to extend the vim type system. (See |type()|)
+    This is done by adding special keys to a dictionary to indicate it is not
+    an arbitrary dictionary but a different type. see library#Type()
+
+TOVL OBJECT OOP						*tovl-object* {{{2
+
+    TOVL supports a basic OOP programming. See |tovl#obj#NewObject()|
+    Basically this kind of duck typing (the way its done in Javascript).
+    If something behaves like a duck it is one..
+    You can also load missing features within an object at call time to
+    keep startup time of vim as short as possible.
+    Examples can be found in obj_test.vim.
+
+TOVL LOGGING					*tovl-log* *tovl-logging* {{{2
+
+    TOVL provides a minimal logging facility. The code has been optimized for
+    speed (by keeping a list of log items which is cut only once in a while).
+    Yet you can replace the code by your own if you have to.
+    Use |tovl#log#Log()|to create log lines and use the command |TOVLLog|
+    (plugin |PluginLog|) or >
+      call plugins#tovl#log#ShowTOVLLog()
+<   to view the log.
+    To log every log level (error=0,info=1,debug=2) use
+    *tovl-log-config*  >
+      call tovl#log#GetLogger().SetLevel(999)
+<   (You can also use the PluginTOVL_Config now)
+
+    I recommend logging in your scripts this way: >
+    fun! s:Log(level, msg)
+      call tovl#log#Log("your_file",a:level, a:msg)
+    endf
+
+    try
+      throw "test"
+    catch /.*/
+      call s:Log(2,"exception while testing"
+       \ ." the exception and throwpoint will be ammended automatically")
+    endtry
+< 
+    There is some a special treatment for exceptions: When the message begins
+    with "exception" the Log function will automatically append v:exceptions
+    and v:throwpoint.
+
+TOVL CHOOSE					        *tovl-choose* {{{2
+
+    One thing many scripts of need to do: Ask the user to pick an item from a
+    list. a very simple function which can do this if you have 20 or less
+    items is |tovl#ui#choice#LetUserSelectIfThereIsAChoice| which picks one
+    item automatically if it's the only one.
+    However I'd like to replace this by a TToC like implementation.
+
+TOVL TRY					        *tovl-try* {{{2
+
+    If you want test whether you should the one or the other setup then
+    |library#Try| could be the function you'd like to use..
+
+TOVL ERROR FORMATS		 	*tovl-error-formats* {{{2
+
+    See |tovl#errorformat#SetErrorFormat(id)|
+    and plugin autoload/plugins/tovl/errorformats.vim
+    (I never want to have the quoting hell again :-)
+
+TOVL RUN TASK MAYBE IN BACKGROUND		 *tovl-run-in-background* {{{2
+
+    ! You must configure running tasks using the plugin
+    autoload/plugins/tovl/runtaskinbackground.vim
+
+    autoload/tovl/runtaskinbackground.vim provides methods to run external
+    commands. The default is to run them in background. This requires
+    has('client-server') because using |clientserver| [1] is the only way
+    to notify vim about events (what process id and when the process has
+    finished) asynchronously without increasing the probability crashing vim. >
+
+    let process = tovl#runtaskinbackground#NewProcess(
+      \ { 'name' : 'compilation', 'cmd': ["/bin/sh","-c",'sleep 10; echo done'],
+        \ 'ef' : 'plugins#tovl#errorformats#PluginErrorFormats#php' })
+    call process.Run()
+<
+    or as one line (for copy paste and testing) >
+    call tovl#runtaskinbackground#NewProcess( { 'cmd': ["/bin/sh","-c",'sleep 3; echo done'], 'ef' : 'plugins#tovl#errorformats#PluginErrorFormats#php' }).Run()
+ 
+<
+    You can add the key 'fg' : 1 to force running in foreground only (TODO
+    implement this)
+
+    You must have enabled the |PluginErrorFormats| because the example is
+    using 'ef'. If you haven't you'll get some error in the |tovl-log|
+
+    You can set a different decorator to override the default OnStart and
+    OnFinish events thereby making vim changing colors depending on process
+    status etc. (Example: tovl#runtaskinbackground#DefaultDecorator() )
+
+    There is also a very simple system() replacement:
+    |tovl#runtaskinbackground#System()| It is used to run the shell background
+    process. It checks the exit code for you automatically.
+
+    Enjoy!
+
+    [1] It seems that vim doesn't set the server name by default. That's why
+    I'v put this into my .bashrc / .zshrc file: >
+        vim(){ /usr/bin/vim --servername vim$(echo $RANDOM) "$@"; }
+<
+
+TOVL FUNCTION REFERENCES 		 *tovl-function-reference* {{{2
+
+    vim already provides |function()| to create function references.
+    It sucks because it assumes the function has already been loaded.
+    That's bad because we'd like to make vim only load things which are
+    actually used to keep vim fast.
+    (Bram has sent a patch to the vim-dev mailinglist.. But I won't assume
+    that you've applied that).
+    
+    So instead of call call(function('dir#MyFunc'),args,self) 
+    use library#Call(library#Function('dir#MyFunc'),args,self)
+    However both Function and Call are much more versatile because you can
+    pass self by Function and you can also pass some first args of a function.
+    You can also just write some small string lambdas or just use plain values: >
+      " pass plain values
+      3 == library#Call(3)
+
+      " make the reference contain SELF and head of args
+      let F = library#Function('return [ARGS[0], ARGS[1], SELF]',
+            \ { args : [2], self : dict } )
+      [2,"end",dict] == library#Call(F, ["end"])
+<
+
+    Using Call and Function is often very convinient because they let you
+    write lazy code.
+
+    Example: >
+      fun! DoWithLines(lines)
+        return library#Call(a:lines)[3]
+      endf
+      echo DoWithLines(readfile('foo'))
+      " is the same as
+      echo DoWithLines(library#Function('return readfile('.string('foo'))'))
+
+      echo DoWithLines(library#Function(
+        \ 'return GetFromHTTP('.string('http://www.vim.org'))'))
+      " is the same as
+      echo DoWithLines(library#Function(
+        \ 'GetFromHTTP', {'args' : ['http://www.vim.org']})
+
+      " This pays off if you consider this example only using the contents of
+      " one template:
+      InsertTemplate('template1', {
+        \ 'template1' : readfile('foo'),
+        \ 'template2' : readfile('foo2')
+        \ })
+>
+TOVL ACTION		 				*tovl-action* {{{2
+
+    IDE like features: Very often you work on project and you need some commands such
+    as "compile target", "run target". Because there may be different ways to
+    compile a project or to run the result a plugin providing those run or
+    compile actions shouldn't map them directly. It should provide an
+    feat_action feature. How does this work?
+
+    Enable the plugin |PluginAction|. Make sure you've still enabled the
+    |PluginExample|. Then refresh the TOVLConfig view. The |PluginExample|
+    configuration section should now have: >
+          feat_action:dictionary=
+            print_hello_world_example_action:dictionary=
+            [...]
+<   Write the configuration. You should now have a mapping <s-F2> (<s-F3> ..).  and see
+    something like this: >
+    [0-9]* : select by index| <esc>: escape getchar() loop, any char: start filtering
+       0)  example_hw  prints hello world after you've mapped this action to a key
+<   Select the example_hw  action by pressing 0. You have mapped this action
+    to F2 now for this vim session.
+
+    You can assign these actions automatically by using  >
+    MapActionKey <F2> example_hw
+<   (TODO: make sure this works).. However be aware that some actions may want
+    to start a small dialog..
+
+TOVL ....
+
+  TODO
+  add  most useful stuff from the library written by Luc Hermitte
+  add  most useful stuff from tlib. It already belongs to the repository.
+  But it hasn't been merged yet.
+
+==============================================================================
+8.   Writing TOVL plugins ................................. *tovl-plugins*
+  Have a look at the core/autoload/plugins/examples/example.vim
+  file. (TODO)
+
+  A TOVL plugin is a |tovl-object| having these methods at least:
+    Load()      : this setups the plugin
+    Unload()    : this unloads the plugin
+
+    Map()       : adds a mapping [1]
+    Au()        : adds an au command [2]
+
+  less important:
+    LoadPlugin(): internal, this calls Load
+    Log(level, msg): |tovl-log|
+    LogExec(level, prefix, cmd): Use this function to setup any user
+                                interaction (such as commands) [3]
+    OnConfigChange(): This is registered as config change notification handler
+    AddDefaultConfigOptions(): This adds default options to the configuration
+                               Consider using self['default']['key'] = value
+                               instead.
+
+  Both [1] and [2] are remembered. The plugin tries to remove those mappings
+  on unload automatically. See core/autoload/tovl/plugin_management.vim.
+
+  [3] users will be thankful because they can debug trouble more easily
+
+  LoadPlugin() automatically gets a self.cfg dict from configuration.
+  Hower this conflicts with |tovl-config-merge| . So please use
+  config#Get(self.pluginName.'#mypath#opt') instead if you feel that someone
+  would like to merge options here for now. (Maybe the implementation should
+  be enhanced..) (TODO think about what is really needed)
+
+  *tovl-plugin-loading-order*
+  You can add the key "loadingOrder" of a plugin to make it load before or
+  after other plugins.
+
+  values used by library plugins:
+
+     10 : used by  |tovl-config| plugin
+     45 : used by  |tovl-feature-set-extending| plugins (map + command)
+     50 : used by  |tovl-feature-set-extending| plugins requiring 45
+
+    100 : default
+
+    200 : PluginLocalVimrc
+
+  its not perfect but is fastest and most simple.
+
+==============================================================================
+10.  TOVL FUNCTION REFERENCE (TODO)
+      list of TOVL functions you should know about.
+
+==============================================================================
+11.  Does tovl has some support for language or filetype X ? *tovl-lang-support*
+  haskell: |lang_haskell.txt|
+
+==============================================================================
+20.  3rd party libraries, other code you should know about
+
+  You've seen the autoload/tlib directory.
+  I needed some functions of it and that's why I just copied them over.
+  You can find the most current version of the tlib library here :
+  http://github.com/tomtom/vimtlib.
+  vimtlib has been written by Tom Link. It contains a lot of nice features.
+  Eg the TToC command is smarter than the PluginTOVL_ToC in some aspects.
+
+  (TODO extend this list)
+
+==============================================================================
+100. wish-list             *tovl-wish-list*
+
+  * plugin dependencies. A depends on B and causes loading of B (thereby
+    revealing its config options)
+  * add completion stuff to the config editor
+  * At least add a command jumping to the plugin source code or help document
+  * ...
+
+  You want to help? See |tovl-contribute|.
+
+==============================================================================
+Modelines: {{{1
+ vim:tw=78:ts=8:ft=help:norl:fdm=marker

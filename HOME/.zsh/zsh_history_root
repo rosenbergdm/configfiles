@@ -1,0 +1,32 @@
+ls
+newusers
+ls
+cd ~
+ls
+zsh
+exit
+exit
+ls
+exit
+echo $ZDOT
+env
+exit
+exit
+cd ~
+ls
+ls .z*
+mv .zshrc .zshrc.bak
+mv _zshrc .zshrc
+mv _zshprompt.zsh .zshprompt.zsh
+mv _zshrc.d .zshrc.d
+ls
+mv _zcompcache .zcompcache
+ls
+cd .zsh
+ls
+cat z
+cat zdirdump
+ls
+ls
+cd ../
+exit

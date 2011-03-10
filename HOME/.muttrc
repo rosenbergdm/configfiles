@@ -1,0 +1,59 @@
+
+
+#############################  Basics  ##############################
+
+set realname = "David M. Rosenberg"
+set from = "drosenberg@connamara.com"
+set use_from = yes
+set envelope_from = "yes"
+
+set signature = "~/.mutt/signature"
+
+set sendmail = "/usr/bin/msmtp"
+set spoolfile = "/var/spool/mail/root"
+
+
+############################  Folders  #############################
+
+set folder = "$HOME/mail"
+set record = "+sent"
+set postponed = "+postponed"
+set mbox_type = mbox
+set move = no
+
+mailboxes ! +slrn +fetchmail +mutt
+set sort_browser=date
+
+############################  Headers  #############################
+
+ignore *
+unignore  Date: From: User-Agent: X-Mailer X-Operating-System To: \
+          Cc: Reply-To: Subject: Mail-Followup-To:
+
+hdr_order Date: From: User-Agent: X-Mailer X-Operating-System To: \
+          Cc: Reply-To: Subject: Mail-Followup-To:
+
+############################  Editor   #############################
+
+set editor="vim -c 'set tw=70 et' '+/^$' " 
+set edit_headers=yes
+
+###########################  Aliases   #############################
+
+set alias_file = ~/.mutt/mutt_aliases
+source ~/.mutt/mutt_aliases
+set sort_alias=alias
+
+###########################  Aliases   #############################
+
+source ~/.mutt/mutt_colors
+
+
+#########################  Miscellaneous  ##########################
+
+set markers          # mark wrapped lines of text in the pager with a +
+set smart_wrap       # Don't wrap mid-word
+set pager_context=5  # Retain 5 lines of previous page when scrolling.
+set status_on_top    # Status bar on top.
+push <show-version>  # Shows mutt version at startup
+

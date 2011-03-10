@@ -1,0 +1,359 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general
+END
+screen
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/screen
+END
+set_title_tab
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/set_title_tab
+END
+_cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/_cc
+END
+_cd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/_cd
+END
+_htmlsuffix
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/_htmlsuffix
+END
+killit
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/killit
+END
+whichre
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/whichre
+END
+joinpdf
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/joinpdf
+END
+pgep
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/pgep
+END
+stoppedjobs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/stoppedjobs
+END
+prompt_ResetAll_setup
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/prompt_ResetAll_setup
+END
+txtgrep
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/txtgrep
+END
+_pdfsuffix
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/_pdfsuffix
+END
+make_transparent
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/make_transparent
+END
+_expand_word_and_keep
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/_expand_word_and_keep
+END
+rcommand
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/rcommand
+END
+pidof
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/pidof
+END
+_cp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/_cp
+END
+_files_only
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/_files_only
+END
+dotgrep
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/dotgrep
+END
+hgrep
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/hgrep
+END
+locwd
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/locwd
+END
+errnum
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/errnum
+END
+lgrep
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/lgrep
+END
+_md5sum
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/_md5sum
+END
+prompt_simple_setup
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/prompt_simple_setup
+END
+find_dups
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/find_dups
+END
+ppath
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/ppath
+END
+ldirs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/ldirs
+END
+_setopt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/_setopt
+END
+vi
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/vi
+END
+function_content
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/function_content
+END
+sgrep
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/sgrep
+END
+_unsetopt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/_unsetopt
+END
+_fortune
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/_fortune
+END
+gunall
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/gunall
+END
+renice_grep
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/renice_grep
+END
+keep
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/keep
+END
+cd_
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/cd_
+END
+_insert_kept
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/_insert_kept
+END
+tidyxml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/tidyxml
+END
+_vim
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/_vim
+END
+run-help
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/run-help
+END
+testsplit
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/testsplit
+END
+vim
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/vim
+END
+_ssh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/_ssh
+END
+_rcommand
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/_rcommand
+END
+depfinder
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/depfinder
+END
+gvim
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/gvim
+END
+dusize
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/dusize
+END
+dirstack
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/dirstack
+END
+dirdump
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/dirdump
+END
+go
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/go
+END
+envgrep
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/envgrep
+END
+_locate
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/_locate
+END
+prompt_kerbaugh_setup
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/prompt_kerbaugh_setup
+END
+_main_complete
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/_main_complete
+END
+fds
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/fds
+END
+fdsa
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/general/fdsa
+END

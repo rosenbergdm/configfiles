@@ -1,0 +1,24 @@
+#!/bin/zsh
+
+local cmdname
+typeset -A opt_args
+
+compfile=$(mktemp -t XXXXX)
+
+h_dump=$(eval $cmdname -h)
+
+
+parse_u_line() {
+  local okey oval
+  okey=$(echo $line | perl -pi -e 's/^.*[ |\[|\t]+(-.).*$/$1/');
+  oval=$(echo $line | perl -pi -e 's/(^.*[ |\[|\t]+-.)[ |\t|-]+(.*)/$2');
+}
+
+save_completion() {
+  cmdfile="$ZDOT/zshrc_local.d/_${cmdname}"
+  while [ -a ${cmdfile} ]; do
+    cmdfile="$ZDOT/zshrc_local.d/_${cmdname}1"
+  done
+  echo -e "#compdef ${cmdname}\n\n" > $cmdfile
+  echo -e "_arguments -s -S \\"
+

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/141/mu-template/trunk/after/template
+END
+cppunit-header.template
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/33/mu-template/trunk/after/template/cppunit-header.template
+END
+help.template
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/33/mu-template/trunk/after/template/help.template
+END
+template.template
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/33/mu-template/trunk/after/template/template.template
+END
+vim.template
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/121/mu-template/trunk/after/template/vim.template
+END
+MyProject-file-header.template
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/33/mu-template/trunk/after/template/MyProject-file-header.template
+END
+test.template
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/33/mu-template/trunk/after/template/test.template
+END
+cpptu-header.template
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/33/mu-template/trunk/after/template/cpptu-header.template
+END
+cpp.template
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/33/mu-template/trunk/after/template/cpp.template
+END
+c.template
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/33/mu-template/trunk/after/template/c.template
+END
+tcl.template
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/33/mu-template/trunk/after/template/tcl.template
+END
+perl.template
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/33/mu-template/trunk/after/template/perl.template
+END
+test-included.template
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/33/mu-template/trunk/after/template/test-included.template
+END
+html.template
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/33/mu-template/trunk/after/template/html.template
+END

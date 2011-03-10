@@ -1,0 +1,11 @@
+VimL: " $Id: html.template 33 2008-02-19 01:26:11Z luc.hermitte $
+VimL: let s:value_start  = '¡'
+VimL: let s:value_end    = '¡'
+VimL: let s:marker_open  = '<+'
+VimL: let s:marker_close = '+>'
+<!-- Created by ¡Author(1)¡ with Vim ¡substitute(v:version, '.', '&.', '')¡ -->
+<html>
+  <body>
+    <+the page+>
+  </body>
+</html>

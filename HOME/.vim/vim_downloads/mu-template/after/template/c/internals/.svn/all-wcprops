@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/33/mu-template/trunk/after/template/c/internals
+END
+c-file-header.template
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/33/mu-template/trunk/after/template/c/internals/c-file-header.template
+END
+c-imp.template
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/33/mu-template/trunk/after/template/c/internals/c-imp.template
+END
+c-header.template
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/33/mu-template/trunk/after/template/c/internals/c-header.template
+END
+c-header-typical.template
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/33/mu-template/trunk/after/template/c/internals/c-header-typical.template
+END

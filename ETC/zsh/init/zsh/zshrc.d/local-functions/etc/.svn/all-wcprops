@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/147/trunk/Library/init/zsh/zshrc.d/local-functions/etc
+END
+README.functions
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/etc/README.functions
+END
+faster_open.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/etc/faster_open.zsh
+END
+a2psrc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/etc/a2psrc
+END
+_tunnel_tester
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/etc/_tunnel_tester
+END
+tunnel_tester
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/etc/tunnel_tester
+END
+macmail.pl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/etc/macmail.pl
+END
+touch_awake.zsh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/75/trunk/Library/init/zsh/zshrc.d/local-functions/etc/touch_awake.zsh
+END

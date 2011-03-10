@@ -1,0 +1,6 @@
+VimL: " $Id: vim-footer.template 33 2008-02-19 01:26:11Z luc.hermitte $
+VimL: "«Vim» scripts footer Template File, Luc Hermitte
+"------------------------------------------------------------------------
+let &cpo=s:cpo_save
+"=============================================================================
+" vim600: set fdm=marker:

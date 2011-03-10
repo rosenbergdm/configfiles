@@ -1,0 +1,37 @@
+9
+
+dir
+153
+http://lh-vim.googlecode.com/svn/SiR/trunk
+http://lh-vim.googlecode.com/svn
+
+
+
+2009-02-19T02:06:42.779597Z
+144
+luc.hermitte
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+50c58283-e937-0410-a8aa-d7cab3d61977
+
+mkVba
+dir
+
+doc
+dir
+
+plugin
+dir
+

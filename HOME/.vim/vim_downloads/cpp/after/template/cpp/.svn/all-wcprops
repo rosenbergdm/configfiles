@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/100/cpp/trunk/after/template/cpp
+END
+class.template
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/100/cpp/trunk/after/template/cpp/class.template
+END
+utf8.template
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/41/cpp/trunk/after/template/cpp/utf8.template
+END
+file-dox.template
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/41/cpp/trunk/after/template/cpp/file-dox.template
+END
+namespace.template
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/41/cpp/trunk/after/template/cpp/namespace.template
+END
+for-iterator.template
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/41/cpp/trunk/after/template/cpp/for-iterator.template
+END
+author-doxygen.template
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/41/cpp/trunk/after/template/cpp/author-doxygen.template
+END
+fori.template
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/41/cpp/trunk/after/template/cpp/fori.template
+END
+doxygen-function.template
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/41/cpp/trunk/after/template/cpp/doxygen-function.template
+END
+singleton.template
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/41/cpp/trunk/after/template/cpp/singleton.template
+END
+stream-inserter.template
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/41/cpp/trunk/after/template/cpp/stream-inserter.template
+END
+bool-operator.template
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/41/cpp/trunk/after/template/cpp/bool-operator.template
+END
+stream-extractor.template
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/41/cpp/trunk/after/template/cpp/stream-extractor.template
+END

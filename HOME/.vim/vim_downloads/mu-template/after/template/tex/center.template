@@ -1,0 +1,11 @@
+VimL:" $Id: center.template 33 2008-02-19 01:26:11Z luc.hermitte $
+VimL:" «LaTeX: center» File Template, Luc Hermitte <hermitte at free.fr>
+VimL:"
+VimL: let s:value_start  = '¡'
+VimL: let s:value_end    = '¡'
+VimL: let s:reindent     = 1 
+VimL: let s:marker_open  = '<+'
+VimL: let s:marker_close = '+>'
+\begin{center}
+<++>
+\end{center}

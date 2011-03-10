@@ -1,0 +1,66 @@
+SVN: $Id: README.R_with_vim 79 2007-11-21 14:15:56Z ranke $
+Last Change: 2007 Nov 21
+
+For working with vim and R it is convenient to open a fresh xterm on a
+fresh virtual desktop, covering the left half of the screen, and start vim,
+check if the filetype is set correctly (:set ft), set it if necessary (e.g.
+with :set ft=r) and press <F2>. This will open a second xterm listening to an R
+interpreter.  You can then send visually highlighted code from vim to R with
+the vmap "r".
+
+Caution: If there are adjacent tabs in the source code (can be made visible
+with :set list, then they show up as ^I^I), then your R console will list 
+the contents of your working directory in the middle of interpreting your
+code and most likely get confused. I don't recommend using tabs anyway (use 
+the vim option expandtab, as set in ftplugin/r.vim). A workaround for existing
+code is to execute it with the R command source().
+
+-----
+
+As an alternative to this plugin on www.vim.org you can also install my Debian
+package if you are using the Debian distribution
+
+	$ su
+	$ echo "deb http://www.uft.uni-bremen.de/chemie/ranke/debs ./" >> /etc/apt/sources.list
+	$ apt-get update
+	$ apt-get install vim-r-plugin
+
+Note that you have to activate addons like this plugin since vim version
+7.1-022+1, July 2007. For system-wide activation, use
+
+	$ vim-addons -w install r-plugin
+
+(details in README.Debian). You can then ignore the rest of this file.
+
+-----
+
+Making this plugin work requires the installation of the perl script,
+ftplugin/funnel.pl. It just has to be in your $PATH and executable, so if you
+are the only one working with the plugin on your machine, e.g.
+
+mv ftplugin/funnel.pl ~/bin
+chmod +x ~/bin/funnel.pl
+
+(be sure ~/bin is in your $PATH variable) or if you have superuser privileges
+you can put funnel.pl it into /usr/local/bin.
+
+funnel.pl requires two perl libraries:
+
+	IO::Pty and Term::ReadLine
+
+If you add the lines
+
+	au BufNewFile,BufRead *.R     setf r
+	au BufNewFile,BufRead *.R     set syntax=r
+
+to your ~.vim/filetype.vim file (or create one with only these lines) then the
+vimscript r.vim will be activated upon opening any file with a filename
+matching *.R. The whole set of commands available at this point is elucidated
+in ftplugin/r.vim.
+
+I am also including my syntax files for R help files and R noweb files (Sweave files)
+as well as a Makefile for processing R noweb files from within vim with :make. The 
+syntax files are part of vim starting from version 7.
+
+I have one report of the funnel.pl not working on Mac OS X with the default perl on this
+OS. If anybody gets this to work, please drop me a line.

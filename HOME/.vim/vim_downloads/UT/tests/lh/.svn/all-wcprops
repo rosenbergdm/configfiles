@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/151/UT/trunk/tests/lh
+END
+UT.vim
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/151/UT/trunk/tests/lh/UT.vim
+END
+UT-fixtures.vim
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/151/UT/trunk/tests/lh/UT-fixtures.vim
+END
